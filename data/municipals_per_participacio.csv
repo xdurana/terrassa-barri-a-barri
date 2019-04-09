@@ -1,0 +1,103 @@
+VOTACIO,TITOL,ANY_VOTACIO,DISTRICTE,CODI_BARRI,NOM_BARRI,NUM_ELECTORS,NUM_VOTANTS,VOTS_BLANCS,VOTS_NULS,VOTS_CANDIDATURES
+M,Eleccions Municipals                    ,2007,3,1,CAN PARELLADA                           ,4459,1589,15,10,1564
+M,Eleccions Municipals                    ,2007,3,2,LES FONTS                               ,1505,686,28,3,655
+M,Eleccions Municipals                    ,2007,3,3,CAN JOFRESA                             ,1696,737,12,4,721
+M,Eleccions Municipals                    ,2007,3,4,GUADALHORCE                             ,933,369,10,2,357
+M,Eleccions Municipals                    ,2007,3,5,CAN PALET II                            ,651,310,4,1,305
+M,Eleccions Municipals                    ,2007,3,6,XUQUER                                  ,824,352,7,0,345
+M,Eleccions Municipals                    ,2007,2,7,MONTSERRAT                              ,712,324,11,3,310
+M,Eleccions Municipals                    ,2007,2,8,VILARDELL                               ,652,224,1,1,222
+M,Eleccions Municipals                    ,2007,2,9,TORRE-SANA                              ,2682,962,33,1,928
+M,Eleccions Municipals                    ,2007,6,10,LES ARENES - LA GRIPIA - CAN MONTLLOR   ,9802,3532,69,18,3445
+M,Eleccions Municipals                    ,2007,6,11,SANT LLORENC                            ,3287,1347,27,6,1314
+M,Eleccions Municipals                    ,2007,6,12,SANT PERE NORD                          ,10558,4562,108,20,4434
+M,Eleccions Municipals                    ,2007,6,13,EGARA                                   ,2733,1089,22,3,1064
+M,Eleccions Municipals                    ,2007,2,14,CA N ANGLADA                            ,7436,3368,72,22,3274
+M,Eleccions Municipals                    ,2007,1,15,PL. CATALUNYA - ESC. INDUSTRIAL         ,3601,1677,60,5,1612
+M,Eleccions Municipals                    ,2007,1,16,CEMENTIRI VELL                          ,4378,2110,80,10,2020
+M,Eleccions Municipals                    ,2007,1,17,CENTRE                                  ,14594,6785,267,29,6489
+M,Eleccions Municipals                    ,2007,1,18,VALLPARADIS                             ,3427,1749,87,11,1651
+M,Eleccions Municipals                    ,2007,1,19,ANTIC POBLE DE SANT PERE                ,402,225,6,2,217
+M,Eleccions Municipals                    ,2007,5,20,SANT PERE                               ,9063,4586,199,23,4364
+M,Eleccions Municipals                    ,2007,6,21,CAN TUSELL                              ,2161,736,15,2,719
+M,Eleccions Municipals                    ,2007,5,22,PLA DEL BON AIRE                        ,2251,981,17,4,960
+M,Eleccions Municipals                    ,2007,5,23,CAN ROCA                                ,2009,845,19,2,824
+M,Eleccions Municipals                    ,2007,5,24,POBLE NOU - ZONA ESPORTIVA              ,8656,3589,117,17,3455
+M,Eleccions Municipals                    ,2007,5,25,PERE PARRES                             ,5176,2435,107,10,2318
+M,Eleccions Municipals                    ,2007,5,26,CAN BOADA CASC ANTIC                    ,4524,2132,42,4,2086
+M,Eleccions Municipals                    ,2007,4,27,CA N AURELL                             ,13487,7043,287,30,6726
+M,Eleccions Municipals                    ,2007,4,28,LA MAURINA                              ,4969,2190,52,8,2130
+M,Eleccions Municipals                    ,2007,4,29,LA COGULLADA                            ,3709,1552,46,5,1501
+M,Eleccions Municipals                    ,2007,3,30,SEGLE XX                                ,3847,1794,87,4,1703
+M,Eleccions Municipals                    ,2007,3,31,CAN PALET                               ,8506,3614,99,37,3478
+M,Eleccions Municipals                    ,2007,4,32,ROC BLANC                               ,3704,1510,36,8,1466
+M,Eleccions Municipals                    ,2007,5,41,CAN BOADA DEL PI                        ,1495,588,12,0,576
+M,Eleccions Municipals                    ,2007,4,43,CAN PALET DE VISTA ALEGRE               ,1243,462,17,0,445
+M,Eleccions Municipals                    ,2011,3,1,CAN PARELLADA                           ,4367,1759,66,20,1673
+M,Eleccions Municipals                    ,2011,3,2,LES FONTS                               ,1816,769,43,10,716
+M,Eleccions Municipals                    ,2011,3,3,CAN JOFRESA                             ,1628,756,25,8,723
+M,Eleccions Municipals                    ,2011,3,4,GUADALHORCE                             ,853,401,26,3,372
+M,Eleccions Municipals                    ,2011,3,5,CAN PALET II                            ,605,334,10,3,321
+M,Eleccions Municipals                    ,2011,3,6,XUQUER                                  ,766,372,6,14,352
+M,Eleccions Municipals                    ,2011,2,7,MONTSERRAT                              ,633,305,20,1,284
+M,Eleccions Municipals                    ,2011,2,8,VILARDELL                               ,637,255,1,0,254
+M,Eleccions Municipals                    ,2011,2,9,TORRE-SANA                              ,3374,1331,86,24,1221
+M,Eleccions Municipals                    ,2011,6,10,LES ARENES - LA GRIPIA - CAN MONTLLOR   ,10013,4122,193,40,3889
+M,Eleccions Municipals                    ,2011,6,11,SANT LLORENC                            ,3228,1439,49,13,1377
+M,Eleccions Municipals                    ,2011,6,12,SANT PERE NORD                          ,10444,5020,190,60,4770
+M,Eleccions Municipals                    ,2011,6,13,EGARA                                   ,2636,1195,55,9,1131
+M,Eleccions Municipals                    ,2011,2,14,CA N ANGLADA                            ,7167,3480,135,38,3307
+M,Eleccions Municipals                    ,2011,1,15,PL. CATALUNYA - ESC. INDUSTRIAL         ,3557,1799,104,32,1663
+M,Eleccions Municipals                    ,2011,1,16,CEMENTIRI VELL                          ,4691,2369,111,30,2228
+M,Eleccions Municipals                    ,2011,1,17,CENTRE                                  ,13170,7605,360,113,7132
+M,Eleccions Municipals                    ,2011,1,18,VALLPARADIS                             ,3423,1907,67,30,1810
+M,Eleccions Municipals                    ,2011,1,19,ANTIC POBLE DE SANT PERE                ,430,259,10,2,247
+M,Eleccions Municipals                    ,2011,5,20,SANT PERE                               ,9050,4894,247,70,4577
+M,Eleccions Municipals                    ,2011,6,21,CAN TUSELL                              ,2085,771,34,6,731
+M,Eleccions Municipals                    ,2011,5,22,PLA DEL BON AIRE                        ,2124,1063,42,12,1009
+M,Eleccions Municipals                    ,2011,5,23,CAN ROCA                                ,2528,1200,65,20,1115
+M,Eleccions Municipals                    ,2011,5,24,POBLE NOU - ZONA ESPORTIVA              ,8495,3939,197,68,3674
+M,Eleccions Municipals                    ,2011,5,25,PERE PARRES                             ,5146,2625,117,41,2467
+M,Eleccions Municipals                    ,2011,5,26,CAN BOADA CASC ANTIC                    ,4354,2219,74,34,2111
+M,Eleccions Municipals                    ,2011,4,27,CA N AURELL                             ,13588,7409,327,142,6940
+M,Eleccions Municipals                    ,2011,4,28,LA MAURINA                              ,4786,2241,100,33,2108
+M,Eleccions Municipals                    ,2011,4,29,LA COGULLADA                            ,3875,1737,75,29,1633
+M,Eleccions Municipals                    ,2011,3,30,SEGLE XX                                ,4329,2062,127,26,1909
+M,Eleccions Municipals                    ,2011,3,31,CAN PALET                               ,8484,3941,198,37,3706
+M,Eleccions Municipals                    ,2011,4,32,ROC BLANC                               ,3946,1824,88,21,1715
+M,Eleccions Municipals                    ,2011,5,41,CAN BOADA DEL PI                        ,1511,658,21,16,621
+M,Eleccions Municipals                    ,2011,4,43,CAN PALET DE VISTA ALEGRE               ,1439,558,25,9,524
+M,Eleccions Municipals                    ,2015,3,1,CAN PARELLADA                           ,4453,2084,42,16,2026
+M,Eleccions Municipals                    ,2015,3,2,LES FONTS                               ,1948,1070,13,9,1048
+M,Eleccions Municipals                    ,2015,3,3,CAN JOFRESA                             ,1575,812,12,1,799
+M,Eleccions Municipals                    ,2015,3,4,GUADALHORCE                             ,876,430,6,2,422
+M,Eleccions Municipals                    ,2015,3,5,CAN PALET II                            ,652,365,5,4,356
+M,Eleccions Municipals                    ,2015,3,6,XUQUER                                  ,747,422,1,3,418
+M,Eleccions Municipals                    ,2015,2,7,MONTSERRAT                              ,679,310,2,2,306
+M,Eleccions Municipals                    ,2015,2,8,VILARDELL                               ,607,232,0,1,231
+M,Eleccions Municipals                    ,2015,2,9,TORRE-SANA                              ,3914,1904,40,13,1851
+M,Eleccions Municipals                    ,2015,6,10,LES ARENES - LA GRIPIA - CAN MONTLLOR   ,10148,5047,62,26,4959
+M,Eleccions Municipals                    ,2015,6,11,SANT LLORENC                            ,3223,1530,18,15,1497
+M,Eleccions Municipals                    ,2015,6,12,SANT PERE NORD                          ,10617,5658,47,26,5585
+M,Eleccions Municipals                    ,2015,6,13,EGARA                                   ,2703,1321,11,2,1308
+M,Eleccions Municipals                    ,2015,2,14,CA N ANGLADA                            ,7266,3705,30,18,3657
+M,Eleccions Municipals                    ,2015,1,15,PL. CATALUNYA - ESC. INDUSTRIAL         ,3541,2010,22,7,1981
+M,Eleccions Municipals                    ,2015,1,16,CEMENTIRI VELL                          ,4767,2819,33,16,2770
+M,Eleccions Municipals                    ,2015,1,17,CENTRE                                  ,13964,8747,114,26,8607
+M,Eleccions Municipals                    ,2015,1,18,VALLPARADIS                             ,3523,2129,28,9,2092
+M,Eleccions Municipals                    ,2015,1,19,ANTIC POBLE DE SANT PERE                ,420,306,2,0,304
+M,Eleccions Municipals                    ,2015,5,20,SANT PERE                               ,9272,5449,69,31,5349
+M,Eleccions Municipals                    ,2015,6,21,CAN TUSELL                              ,2027,969,6,2,961
+M,Eleccions Municipals                    ,2015,5,22,PLA DEL BON AIRE                        ,2086,1182,19,8,1155
+M,Eleccions Municipals                    ,2015,5,23,CAN ROCA                                ,2750,1502,18,8,1476
+M,Eleccions Municipals                    ,2015,5,24,POBLE NOU - ZONA ESPORTIVA              ,8878,4783,63,11,4709
+M,Eleccions Municipals                    ,2015,5,25,PERE PARRES                             ,5333,3030,54,8,2968
+M,Eleccions Municipals                    ,2015,5,26,CAN BOADA CASC ANTIC                    ,4401,2475,14,10,2451
+M,Eleccions Municipals                    ,2015,4,27,CA N AURELL                             ,13543,8176,99,33,8044
+M,Eleccions Municipals                    ,2015,4,28,LA MAURINA                              ,5105,2630,38,10,2582
+M,Eleccions Municipals                    ,2015,4,29,LA COGULLADA                            ,4033,2055,47,10,1998
+M,Eleccions Municipals                    ,2015,3,30,SEGLE XX                                ,4573,2591,53,9,2529
+M,Eleccions Municipals                    ,2015,3,31,CAN PALET                               ,8647,4494,61,22,4411
+M,Eleccions Municipals                    ,2015,4,32,ROC BLANC                               ,4076,2114,29,15,2070
+M,Eleccions Municipals                    ,2015,5,41,CAN BOADA DEL PI                        ,1466,667,4,3,660
+M,Eleccions Municipals                    ,2015,4,43,CAN PALET DE VISTA ALEGRE               ,1519,765,10,2,753
