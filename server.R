@@ -5,28 +5,42 @@ library(dplyr)
 
 source('municipals.R')
 
+pal <- scales::seq_gradient_pal(low = "#132B43", high = "#56B1F7", space = "Lab")(seq(0, 1, length.out = 12))
 terrassa <- rgdal::readOGR("json/terrassa.geojson")
-terrassa@data <- terrassa@data %>%
-    mutate(
-        CODI_BARRI = as.integer(barri)
-    ) %>%
-    left_join(
-        getElection(2015)        
-    )
+dades <- terrassa@data
 
 shinyServer(function(input, output) {
 
+    mymap <- reactive({
+        terrassa@data <- dades %>%
+            mutate(
+                CODI_BARRI = as.integer(barri)
+            ) %>%
+            left_join(
+                getElection(input$year)
+            ) %>%
+            filter(
+                PARTIT == input$party
+            )
+        terrassa
+    })
+    
     output$map <- renderLeaflet({
-        pal <- scales::seq_gradient_pal(low = "#132B43", high = "#56B1F7", space = "Lab")(seq(0, 1, length.out = 12))
+        terrassa <- mymap()
         leaflet(terrassa) %>%
-            addTiles() %>%
+            setView(1.9940344, 41.560104, 12) %>%
+            addTiles()
+    })
+    
+    observe({
+        leafletProxy("map", data = mymap()) %>%
+            clearShapes() %>%
             addPolygons(
                 color = "#000",
                 weight = 1,
                 opacity = 0.5,
-                fillColor = ~colorNumeric(pal, `CUP - CAV - PA`)(`CUP - CAV - PA`),
-                fillOpacity = 0.6, 
-                popup = with(terrassa@data, htmltools::htmlEscape(sprintf("%s: %0.2f", `NOM_BARRI`, `CUP - CAV - PA`)))
+                fillColor = ~colorNumeric(pal, VOTS)(VOTS),
+                fillOpacity = 0.6
             )
-    })
+    })    
 })

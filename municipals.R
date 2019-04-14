@@ -38,9 +38,5 @@ getElection <- function(year) {
         ) %>%
         mutate(
             VOTS = VOTS*100/NUM_VOTANTS
-        ) %>%
-        spread(
-            PARTIT,
-            VOTS
         )
 }
