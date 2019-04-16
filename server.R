@@ -9,7 +9,7 @@ pal <- scales::seq_gradient_pal(low = "#132B43", high = "#56B1F7", space = "Lab"
 terrassa <- rgdal::readOGR("json/terrassa.geojson")
 dades <- terrassa@data
 
-shinyServer(function(input, output) {
+shinyServer(function(input, output, session) {
 
     mymap <- reactive({
         terrassa@data <- dades %>%
@@ -22,7 +22,7 @@ shinyServer(function(input, output) {
             filter(
                 PARTIT == input$party
             )
-        terrassa
+        return(terrassa)
     })
     
     output$map <- renderLeaflet({
@@ -31,10 +31,17 @@ shinyServer(function(input, output) {
             setView(1.9940344, 41.560104, 12) %>%
             addTiles()
     })
-    
+
     observe({
+
+        updateSelectInput(
+            session,
+            "party",
+            choices = unique(getElection(input$year)$PARTIT),
+            selected = tail(unique(getElection(input$year)$PARTIT), 1)
+        )
+        
         leafletProxy("map", data = mymap()) %>%
-            clearShapes() %>%
             addPolygons(
                 color = "#000",
                 weight = 1,
